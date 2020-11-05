@@ -1,0 +1,12 @@
+This Project is regarding the design of a Dashboard using R Shiny for Showing the PCA and Eigen Faces.
+
+The following steps can be followed for Running the project and viewing the results.
+
+1) Download all the required packages as mentioned in the Early code in ui.R along with R studio and R shiny.
+2) Make sure to se the R files under the directory.
+3) Put the necessary datasets in required file paths. If there is any change in path make sure to change it in the server.R file
+4) Execute the ui.R file
+5) Here at first data needs to be uploaded and further the various features of dash board can be viewed.
+
+Link for Video:
+Github Link for Code:

@@ -1,0 +1,206 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you?",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "good morning",
+        "good afternoon",
+        "good evening"
+      ],
+      "responses": [
+        "Hey! How can I help you?",
+        "Hello, thanks for visiting! How may I help you?",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "No", 
+      "No Thanks", "That's it", "Nope", "No I am good!"],
+      "responses": [
+        "See you later, thanks for visiting! Have a good time",
+        "Have a nice day, vist us again!",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thankyou", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help! Anything else?", 
+      "Any time! ANything else?", "My pleasure! ANything else?"]
+    },
+    {
+      "tag": "items",
+      "patterns": [      
+        "What items do you have?",
+        "Order",
+        "Order an item",
+        "Can I order something?",
+        "What kinds of items are there?",
+        "What do you sell?",
+        "What's your menu today'?",
+        "Can I get menu?"
+      ],
+      "responses": [
+        "We sell pizza for $4.99, veg burgers for $3.99, Non Veg burger for $4.99",
+        "We have pizza for $4.99, veg burgers for $3.99, Non Veg burger for $4.99"
+        
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal, please pay at counter before you take your food",
+        "We accept most major credit cards, and Paypal, please pay at counter before you take your food"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes around 10-15 minutes",
+        "your order will be ready in 10-15 minutes"
+      ]
+    },
+    
+       
+    {
+      "tag": "veg burger",
+      "patterns": [
+        "Can i order a veg burger",
+        "Get me a veg burger",
+        "I want veg burger",
+        "can i get a veg burger"
+      ],
+      "responses": [
+        "Sure! your order will be ready for pick up in 5 minutes. Have a good Time!",
+        "Thankyou! your veg burger will be ready by 5 minutes. Have a good Time!"
+      ]
+    },
+    
+    {
+      "tag": "veg_non_veg_burger",
+      "patterns": [
+        "Can i order a non veg burger and veg burger",
+        "Get me a non veg burger and  veg burger",
+        "I want non veg burger and a veg burger",
+        "can i get a non veg burger and veg burger",
+        "Can i order a  veg burger and non veg burger",
+        "Get me a veg burger and non veg burger",
+        "I want a veg burger and non veg burger",
+        "can i get a veg burger and non veg burger"
+      ],
+      "responses": [
+        "Sure! your order will be ready for pick up in 11 minutes. Have a good Time!",
+        "Thankyou! your veg burger and non veg burger  will be ready by 11 minutes. Have a good Time!"
+      ]
+    },
+    
+    {
+      "tag": "non veg burger",
+      "patterns": [
+        "Can i order a non veg burger",
+        "Get me a non veg burger",
+        "I want non veg burger",
+        "can i get a non veg burger"
+      ],
+      "responses": [
+        "Sure! your order will be ready for pick up in 6 minutes. Have a good Time!",
+        "Thankyou! your non veg burger will be ready by 6 minutes. Have a good Time!"
+      ]
+    },
+    {
+      "tag": "pizza_non_veg_burger",
+      "patterns": [
+        "Can i order a pizza and non veg burger",
+        "Get me a pizza and non veg burger",
+        "I want pizza and a non veg burger",
+        "can i get a pizza and non veg burger",
+        "Can i order a non veg burger and pizza",
+        "Get me a non veg burger and pizza",
+        "I want a non veg burger and pizza",
+        "can i get a non veg burger and pizza"
+      ],
+      "responses": [
+        "Sure! your order will be ready for pick up in 12 minutes. Have a good Time!",
+        "Thankyou! your pizza and non veg burger will be ready by 12 minutes. Have a good Time!"
+      ]
+    },
+    
+    {
+      "tag": "pizza_veg_non_veg_burger",
+      "patterns": [
+        "Can i order a pizza, veg burger and non veg burger",
+        "Get me a pizza, veg burger and non veg burger",
+        "I want pizza, veg burger and a non veg burger",
+        "can i get a pizza,veg burger and non veg burger",
+        "Can i order a non veg burger, veg burger and pizza",
+        "Get me a non veg burger, veg burger and pizza",
+        "I want a non veg burger,veg burger and pizza",
+        "can i get a non veg burger,veg burger and pizza",
+        "Can i order a non veg burger,pizza and veg burger",
+        "Get me a non veg burger,pizza and veg burger",
+        "I want a non veg burger,pizza and veg burger",
+        "can i get a non veg burger, pizza,veg burger",
+        "Can i order a pizza, non veg burger and veg burger",
+        "Get me a pizza, non veg burger and veg burger",
+        "I want a pizza, non veg burger and veg burger",
+        "can i get a pizza, non veg burger and veg burger"
+      ],
+      "responses": [
+        "Sure! your order will be ready for pick up in 15 minutes. Have a good Time!",
+        "Thankyou! your pizza, veg burger and non veg burger will be ready by 15 minutes. Have a good Time!"
+      ]
+    },
+    
+    
+    {
+      "tag": "pizza_veg_burger",
+      "patterns": [
+        "Can i order a pizza and veg burger",
+        "Get me a pizza and  veg burger",
+        "I want pizza and a veg burger",
+        "can i get a pizza and veg burger",
+        "Can i order a  veg burger and pizza",
+        "Get me a veg burger and pizza",
+        "I want a veg burger and pizza",
+        "can i get a veg burger and pizza"
+      ],
+      "responses": [
+        "Sure! your order will be ready for pick up in 10 minutes. Have a good Time!",
+        "Thankyou! your pizza and veg burger will be ready by 10 minutes. Have a good Time!"
+      ]
+    },
+    
+    {
+      "tag": "pizza",
+      "patterns": [
+        "Can i order a pizza",
+        "Get me a pizza",
+        "I want pizza",
+        "Order a pizza"
+      ],
+      "responses": [
+        "Yes! your order will be ready for pick up in 11 minutes. Have a good Time!",
+        "Thankyou! your pizza will be ready by 11 minutes. Have a good Time!"
+      ]
+    }
+  ]
+}

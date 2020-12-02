@@ -1,0 +1,13 @@
+This is a Chat bot for Restaurant Food ordering Service, which is intended to reduce the interaction between the Customer and the Restaurant Management.
+
+To execute the project the below steps can be followed:
+
+1) Install pytorch in environment using: conda install -c pytorch pytorch
+2) install nltk library using: pip install nltk
+3) Include your credentials in credentials.txt file i.e username and password of Gmail so that the order notification can be sent. 
+   It gives you error if there is two factor authentication on your email(Disable it) or if the services are not enabled in security(allow less secure apps access).
+4) Run the train_s.py file so that the model gets trained on the given intents.
+5) execute the chat.py file. It displays the bot interfact to chat.
+6) Interact with the bot
+7) You can see emails sent in the email related to the credentials given.
+8) Type "exit" or "quit" to exit from the interface of bot.
